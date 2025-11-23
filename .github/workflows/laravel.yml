@@ -3,7 +3,7 @@ name: Laravel Backend CD
 # Trigger the workflow on push to the main branch
 on:
   push:
-    branches: [ "master" ] # Make sure your branch is named 'master' no "main" branch in repo
+    branches: [ "12.x" ] # Make sure your branch is named '12.x' no "main" branch in repo
 
 jobs:
   deploy:
